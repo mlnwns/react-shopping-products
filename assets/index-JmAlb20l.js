@@ -9401,7 +9401,7 @@ const ProductControlPanel = newStyled.div`
   margin-bottom: 24px;
 `;
 const SHOP_API = {
-  baseUrl: `${"http://techcourse-lv2-alb-974870821.ap-northeast-2.elb.amazonaws.com"}`,
+  baseUrl: `${"https://techcourse-lv2-alb-974870821.ap-northeast-2.elb.amazonaws.com"}`,
   endpoint: {
     products: "products",
     cartItems: "cart-items"
@@ -10482,7 +10482,7 @@ function App() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx(DataProvider, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(ProductFilterProvider, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(AppContent, {}) }) });
 }
 async function enableMocking() {
-  const { worker } = await __vitePreload(() => import("./browser-DI5pBKBv.js"), true ? [] : void 0);
+  const { worker } = await __vitePreload(() => import("./browser-e4cMIGqv.js"), true ? [] : void 0);
   return worker.start({
     onUnhandledRequest: "bypass"
   });
