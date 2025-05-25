@@ -10482,8 +10482,12 @@ function App() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx(DataProvider, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(ProductFilterProvider, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(AppContent, {}) }) });
 }
 async function enableMocking() {
-  const { worker } = await __vitePreload(() => import("./browser-e4cMIGqv.js"), true ? [] : void 0);
+  const { worker } = await __vitePreload(() => import("./browser-DZ6T-kg-.js"), true ? [] : void 0);
+  const isLocalhost = location.hostname === "localhost";
   return worker.start({
+    serviceWorker: {
+      url: isLocalhost ? "/mockServiceWorker.js" : "/react-shopping-products/mockServiceWorker.js"
+    },
     onUnhandledRequest: "bypass"
   });
 }
