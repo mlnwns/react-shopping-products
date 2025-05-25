@@ -27,7 +27,7 @@ var __privateMethod = (obj, member, method) => {
   return method;
 };
 var _executor, _decorate, decorate_fn, _a2, _executor2, _decorate2, decorate_fn2, _b2, _c2;
-import { S as SHOP_API } from "./index-BfusOElv.js";
+import { S as SHOP_API } from "./index-CIzMgiy_.js";
 var POSITIONALS_EXP$1 = /(%?)(%([sdijo]))/g;
 function serializePositional$1(positional, flag) {
   switch (flag) {
@@ -18782,14 +18782,6 @@ const productsData = [
     quantity: 1
   },
   {
-    id: 57,
-    name: "후추",
-    price: 23e3,
-    imageUrl: "https://i.namu.wiki/i/t4M8eo-01JpLUZLIrpTD5vqBnquZLvQrGZJ4Dl3lcXtbk5AOlyK2k3k-VOQQNhFyor-zEHGhlEn60FisBPIqjF8i2xRq10Dbc_Hgg5IbSGM0ROgmychWXYmJzU95XhFmpLMhgUyUGPMv7S9-6Jh6PQ.webp",
-    category: "패션잡화",
-    quantity: 10
-  },
-  {
     id: 4,
     name: "달 무드등",
     price: 28e3,
@@ -18812,14 +18804,6 @@ const productsData = [
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZeoCnBP_VbQ4pLozKbZOIu6B0A9FB3gaeQA&s",
     category: "패션잡화",
     quantity: 6
-  },
-  {
-    id: 29,
-    name: "19×19×19 큐브",
-    price: 85e4,
-    imageUrl: "https://i.namu.wiki/i/kQCwKHpwjePBTPXPTIizJSE0alohKKRlsGOJSrPhAdsODckkF05KNDV27xdydVqHLEdgM7yQu6NSUL-gE0t9SZH_cmaY8tMquJnfLQv5shH_pSdvsRc87hCcO5V3WBZrTwR23NYzoJJEoQIHWqAM4Q.webp",
-    category: "패션잡화",
-    quantity: 20
   },
   {
     id: 33,
